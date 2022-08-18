@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
         playerRigibody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         playerAudio = GetComponent<AudioSource>();
+        animator.SetBool("Buttensriding", false);
     }
 
     // Update is called once per frame
@@ -39,15 +40,27 @@ public class PlayerController : MonoBehaviour
         }
 
         animator.SetBool("Grounded", isGrounded);
+
+        if (Input.GetMouseButtonDown(2))
+        {
+            animator.SetBool("buttensriding", true);
+        }
     }
     private void Die()
     {
         animator.SetTrigger("Die");
+        playerAudio.clip = deathClip;
+        playerAudio.Play();
+        playerRigibody.velocity = Vector2.zero;
+        isDead = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        if (other.tag == "Dead" && !isDead)
+        {
+
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

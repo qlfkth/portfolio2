@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.6f1 (7da38d85baf6) revision 8233869'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16122 MB
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ko' Physical Memory: 16333 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity/portfolio2/portfoilo(양게임)
+D:/unity/GitHud/portfolio2/portfoilo(양게임)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54556
-Successfully changed project path to: D:/Unity/portfolio2/portfoilo(양게임)
-D:/Unity/portfolio2/portfoilo(양게임)
+58663
+Successfully changed project path to: D:/unity/GitHud/portfolio2/portfoilo(양게임)
+D:/unity/GitHud/portfolio2/portfoilo(양게임)
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,113 +47,113 @@ D:/Unity/portfolio2/portfoilo(양게임)
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 449.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 99.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/portfolio2/portfoilo(양게임)/Assets
+[Subsystems] Discovering subsystems at path D:/unity/GitHud/portfolio2/portfoilo(양게임)/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
     Vendor:   NVIDIA
-    VRAM:     3990 MB
-    Driver:   30.0.15.1278
+    VRAM:     5991 MB
+    Driver:   30.0.15.1215
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56012
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.112144 seconds.
+Registered in 0.017376 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 467.93 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 98.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.374 seconds
+- Completed reload, in  0.750 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3376ms)
-		BeginReloadAssembly (476ms)
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (2236ms)
-			LoadAssemblies (451ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (516ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (446ms)
+			SetupTypeCache (112ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (121ms)
-			SetupLoadedEditorAssemblies (1443ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (320ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (370ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (468ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (409ms)
-				ProcessInitializeOnLoadMethodAttributes (190ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021235 seconds.
+Registered in 0.007964 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Unity\portfolio2\portfoilo(양게임)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Unity\portfolio2\portfoilo(양게임)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\GitHud\portfolio2\portfoilo(양게임)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity\GitHud\portfolio2\portfoilo(양게임)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 459.80 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 99.29 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.947 seconds
+- Completed reload, in  1.362 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5950ms)
-		BeginReloadAssembly (836ms)
+	ReloadAssembly (1363ms)
+		BeginReloadAssembly (250ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (164ms)
-		EndReloadAssembly (4492ms)
-			LoadAssemblies (704ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1174ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (226ms)
-			SetupLoadedEditorAssemblies (2406ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (523ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (142ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (460ms)
-				BeforeProcessingInitializeOnLoad (490ms)
-				ProcessInitializeOnLoadAttributes (1028ms)
-				ProcessInitializeOnLoadMethodAttributes (185ms)
-				AfterProcessingInitializeOnLoad (99ms)
-				EditorAssembliesLoaded (1ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 2.59 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (222.3 KB). Loaded Objects now: 4509.
-Memory consumption went from 155.4 MB to 155.2 MB.
-Total: 11.432200 ms (FindLiveObjects: 0.888000 ms CreateObjectMapping: 0.609600 ms MarkObjects: 9.571000 ms  DeleteObjects: 0.360700 ms)
+Unloading 44 unused Assets / (222.9 KB). Loaded Objects now: 4509.
+Memory consumption went from 155.5 MB to 155.3 MB.
+Total: 3.963500 ms (FindLiveObjects: 0.461000 ms CreateObjectMapping: 0.123200 ms MarkObjects: 3.185600 ms  DeleteObjects: 0.192500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,115 +167,23 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 507035.540607 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_02.jpg
-  artifactKey: Guid(b41c4c0694a463642930898c035900d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_02.jpg using Guid(b41c4c0694a463642930898c035900d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40590fa31f0f8aa31a9802a2961a929a') in 0.458539 seconds 
+  Time since last request: 605563.303817 seconds.
+  path: Assets/emigi/울타리.png
+  artifactKey: Guid(c4676524b41f97044949bc406751589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/emigi/울타리.png using Guid(c4676524b41f97044949bc406751589a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4ee97c3f627913c610af392dc429d9') in 0.254093 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.070535 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_02 1.jpg
-  artifactKey: Guid(cf72fe8800ecabf469b2a94b81821581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_02 1.jpg using Guid(cf72fe8800ecabf469b2a94b81821581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885aa46abb2fe9273115febeab1f5f48') in 0.178513 seconds 
+  Time since last request: 0.000023 seconds.
+  path: Assets/emigi
+  artifactKey: Guid(c813658f41d55ec49a6816749243bb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/emigi using Guid(c813658f41d55ec49a6816749243bb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e2e1019942ed8f7c7dc192b3814091f') in 0.001361 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.305498 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_02 2.jpg
-  artifactKey: Guid(c803e3bef399c054e92e69c9f6d4cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_02 2.jpg using Guid(c803e3bef399c054e92e69c9f6d4cf59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68d270a1f9ddd3512205f0a3cf9b710') in 0.163148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.984846 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285.jpg
-  artifactKey: Guid(90a3dd059b1f4264da658a6ceb6340be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285.jpg using Guid(90a3dd059b1f4264da658a6ceb6340be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24c008fe1573c91a606b43d8e055ff3') in 0.192176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000093 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_04.jpg
-  artifactKey: Guid(3a12d8672938ed1418b36e23429d1eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_04.jpg using Guid(3a12d8672938ed1418b36e23429d1eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdb311ad10005e7bc35da96f90fcde2') in 0.244010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.921877 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285 1.jpg
-  artifactKey: Guid(d89c7572d6e5edd4992d3b535cbe4d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285 1.jpg using Guid(d89c7572d6e5edd4992d3b535cbe4d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358a02d11dd54266f70ef82e86c357b3') in 0.160728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_03 1.jpg
-  artifactKey: Guid(bac75eecc3b9d0b4b993e304f6e18292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_03 1.jpg using Guid(bac75eecc3b9d0b4b993e304f6e18292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e91734d2d4a612b45092e94a6bd1b8') in 0.222629 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.779467 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_04 1.jpg
-  artifactKey: Guid(7405b761c770b6145969dcfe79e5c804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_04 1.jpg using Guid(7405b761c770b6145969dcfe79e5c804) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1048d756c25f3c2ecec22b32c82ba87c') in 0.219440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_05.jpg
-  artifactKey: Guid(3526136211220004c8e39799bf0ff2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_05.jpg using Guid(3526136211220004c8e39799bf0ff2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1af2c1de3d98a92720c32fc6db86a9') in 0.180582 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_06.jpg
-  artifactKey: Guid(e645ea1bafc2ad54a870e0a19843d60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_06.jpg using Guid(e645ea1bafc2ad54a870e0a19843d60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b1fd627779f2d92cdfdcc8aa785018') in 0.190456 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_07.jpg
-  artifactKey: Guid(96f0068636352c34cacb85ded8427219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_07.jpg using Guid(96f0068636352c34cacb85ded8427219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ebd205acf68ccf3d177a1dd8b64767') in 0.186755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_09 1.jpg
-  artifactKey: Guid(76bb78d81b61caa4f99fe2c4dfccce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_09 1.jpg using Guid(76bb78d81b61caa4f99fe2c4dfccce7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7436a0bc1c73dd2ffd63ac910ec942') in 0.151644 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_09.jpg
-  artifactKey: Guid(c027c0e5014497946948fca9a1244059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_09.jpg using Guid(c027c0e5014497946948fca9a1244059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde3ca09f8f04005b4fc1e74e7460da8') in 0.182881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/emigi/KakaoTalk_20220817_212952285_08.jpg
-  artifactKey: Guid(ea5debdd61220af4c92fba7ad94e0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/KakaoTalk_20220817_212952285_08.jpg using Guid(ea5debdd61220af4c92fba7ad94e0142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae324e1ea23cb40d246cca4a70ed627') in 0.166732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 931.196488 seconds.
-  path: Assets/emigi/걷기2.png
-  artifactKey: Guid(7a4c4ce149209fb4b8b88a1d9e306f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/걷기2.png using Guid(7a4c4ce149209fb4b8b88a1d9e306f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee011e61bec122e4a7d329f31bdd772c') in 0.271934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/emigi/길.png
-  artifactKey: Guid(7cae6466228499c4d913d61ee4ef2f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/길.png using Guid(7cae6466228499c4d913d61ee4ef2f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c81a11115646c49705c1dd9c565c991') in 0.519427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/emigi/정지.png
-  artifactKey: Guid(900d0293a8b9fba41842d7b5c07c118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/정지.png using Guid(900d0293a8b9fba41842d7b5c07c118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225c205d7b486c39c2c862e311e87346') in 0.256062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
+  Time since last request: 0.000040 seconds.
   path: Assets/emigi/벌.png
   artifactKey: Guid(a4b1aff9e02ef1845ad0b9cc40f349a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/벌.png using Guid(a4b1aff9e02ef1845ad0b9cc40f349a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759250ed45f51b180561ef9fa1d9a6ce') in 0.218054 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/emigi/배경_1.png
-  artifactKey: Guid(d42c651106b8d6a4d887ecb02f892d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/emigi/배경_1.png using Guid(d42c651106b8d6a4d887ecb02f892d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b408831127bc5fbcb16bc52c45ae8c77') in 0.409100 seconds 
+Start importing Assets/emigi/벌.png using Guid(a4b1aff9e02ef1845ad0b9cc40f349a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f3c7736fd0ecd595a2171157a3489d7') in 0.073780 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
