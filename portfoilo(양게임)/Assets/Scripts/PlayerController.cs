@@ -38,6 +38,10 @@ public class PlayerController : MonoBehaviour
             playerRigibody.AddForce(new Vector2(0, jumpCount));
             playerAudio.Play(); 
         }
+        else if(Input.GetMouseButtonUp(0)&& playerRigibody.velocity.y > 0)
+        {
+            playerRigibody.velocity = playerRigibody.velocity * 0.5f;
+        }
 
         animator.SetBool("Grounded", isGrounded);
 
@@ -59,17 +63,21 @@ public class PlayerController : MonoBehaviour
     {
         if (other.tag == "Dead" && !isDead)
         {
-
+            Die();
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        if (collision.contacts[0].normal.y > 0.7f)
+        {
+            isGrounded = true;
+            jumpCount = 0;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        
+        isGrounded = false;
     }
 }

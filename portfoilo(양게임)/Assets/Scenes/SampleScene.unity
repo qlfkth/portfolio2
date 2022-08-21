@@ -716,6 +716,7 @@ GameObject:
   - component: {fileID: 1963876371}
   - component: {fileID: 1963876375}
   - component: {fileID: 1963876376}
+  - component: {fileID: 1963876377}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -953,6 +954,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1963876377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963876370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2edf13d254d855f42b9f19ae9603d806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathClip: {fileID: 8300000, guid: 96bfdb5bdd96a3446826e9490836b8b5, type: 3}
+  jumpForce: 100
 --- !u!1 &1996491707
 GameObject:
   m_ObjectHideFlags: 0
